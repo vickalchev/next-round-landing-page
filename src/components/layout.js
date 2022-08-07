@@ -2,7 +2,9 @@ import React from 'react';
 import { Link } from 'gatsby';
 import Logo from '../assets/NR-Logo.png';
 import CtaButton from './cta-button';
+
 import { 
+        
         container, 
         navElements,
         navLinks,
@@ -43,11 +45,11 @@ const Layout = ({children}) => {
                         </Link>
                     </li>
                 </ul>
-                <div>{CtaButton}</div>
-                
+                <CtaButton text="Let's Talk!" />               
             </nav>
             <main>
                 {children}
+                
             </main>
             <footer>
                 <nav className={navElements}>

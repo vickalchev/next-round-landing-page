@@ -1,7 +1,10 @@
+
 .container {
+    font-family: "inter";
+    font-weight: 200;
     margin: auto;
     max-width: 90%;
-    font-family: sans-serif;
+    
 }
 
 .nav-elements {
@@ -22,20 +25,17 @@
     
 }
 
-/* .nav-link-item:hover {
-    text-decoration: overline solid 2px #621E95;
-} */
 
 .nav-link-text {
     color: #495670;
     
     text-decoration: none;
-    transition: text-transform 0.5s;
+    transition: font-style 1s;
        
 }
 
 .nav-link-text:hover {
-    text-transform: uppercase;
+    font-style: italic;
     color: #31DDAB;
 } 
 

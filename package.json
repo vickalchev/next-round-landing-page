@@ -1,0 +1,22 @@
+{
+  "name": "next-round",
+  "version": "1.0.0",
+  "description": "A landing page for Next Round",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Vic Kalchev",
+  "license": "ISC",
+  "dependencies": {
+    "gatsby": "^4.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}

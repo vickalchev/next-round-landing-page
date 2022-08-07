@@ -1,0 +1,43 @@
+.container {
+    margin: auto;
+    max-width: 90%;
+    font-family: sans-serif;
+}
+
+.nav-elements {
+    display: flex;
+    
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    padding-left: 0;
+}
+
+.nav-link-item {
+    padding: 1rem;
+    
+}
+
+/* .nav-link-item:hover {
+    text-decoration: overline solid 2px #621E95;
+} */
+
+.nav-link-text {
+    color: #495670;
+    
+    text-decoration: none;
+    transition: text-transform 0.5s;
+       
+}
+
+.nav-link-text:hover {
+    text-transform: uppercase;
+    color: #31DDAB;
+} 
+
+
+

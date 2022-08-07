@@ -1,0 +1,16 @@
+.pill {
+    background-color: #31DDAB;
+    border: none;
+    
+    padding: 8px 15px;
+}
+
+.pill:hover {
+    box-shadow: 5px 10px #621E95;
+    background-color: #31ddacc1;
+}
+
+.link-style {
+    text-decoration: none;
+    
+}

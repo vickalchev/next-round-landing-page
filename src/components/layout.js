@@ -5,7 +5,8 @@ import CtaButton from './cta-button';
 
 import { 
         
-        container, 
+        container,
+        logo, 
         navElements,
         navLinks,
         navLinkItem,
@@ -19,6 +20,7 @@ const Layout = ({children}) => {
         <nav className={navElements}>
                 <Link to='/'>
                     <img 
+                        className={logo}
                         src={Logo}
                         alt='Next Round Logo'
                     />
@@ -55,6 +57,7 @@ const Layout = ({children}) => {
                 <nav className={navElements}>
                     <Link to='/'>
                         <img 
+                            className={logo}
                             src={Logo}
                             alt='Next Round Logo'
                         />

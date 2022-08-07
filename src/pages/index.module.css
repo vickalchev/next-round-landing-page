@@ -1,0 +1,10 @@
+.square-top {
+    width: 214px;
+    height: 214px;
+    background-color: #31DDAB;
+    position:absolute;
+    left: -150px;
+    top: 150px;
+    transform: rotate(65deg);
+    
+}

@@ -3,13 +3,19 @@
     font-family: "inter";
     font-weight: 200;
     margin: auto;
+    margin-top: 30px;
     max-width: 90%;
+    z-index: 1;
     
+}
+
+.logo {
+    width: 200px;
+    height: auto;
 }
 
 .nav-elements {
     display: flex;
-    
     align-items: center;
 }
 
@@ -28,13 +34,14 @@
 
 .nav-link-text {
     color: #495670;
-    
+    font-size: 1.1rem;
     text-decoration: none;
     transition: font-style 1s;
        
 }
 
 .nav-link-text:hover {
+    box-shadow: 0px 5px #621E95;
     font-style: italic;
     color: #31DDAB;
 } 
